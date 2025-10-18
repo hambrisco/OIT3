@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283900206729",
+    "project_id": "eva3-iot-francisco-mario",
+    "storage_bucket": "eva3-iot-francisco-mario.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283900206729:android:a0efca95516e4c32dbb058",
+        "android_client_info": {
+          "package_name": "com.company.appEVA3_IOT"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpgbJPQPaK_Hlm1wrHN0wXkE-ODiEASA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
