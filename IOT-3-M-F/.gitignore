@@ -1,0 +1,35 @@
+# Flutter/Dart
+.dart_tool/
+build/
+/.packages
+.packages
+pubspec.lock
+
+# Android
+/android/.gradle
+/android/gradle
+/android/local.properties
+
+# Firebase config (sensitive)
+android/app/google-services.json
+
+# iOS
+Pods/
+Runner/GeneratedPluginRegistrant.*
+
+# Misc
+.idea/
+.vscode/
+*.iml
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+build/
+# Ignore nested repos and temp folders
+OIT2/
+temp_OIT2_2/
+OIT2-1/
+ios/Pods/
+*.iml
+.idea/
+pubspec.lock

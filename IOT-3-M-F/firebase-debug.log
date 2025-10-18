@@ -1,0 +1,25 @@
+[debug] [2025-10-18T08:13:10.864Z] ----------------------------------------------------------------------
+[debug] [2025-10-18T08:13:10.867Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create android proyecto_uno (android) --package-name=com.company.appEVA3_IOT --json --project=eva3-iot-francisco-mario
+[debug] [2025-10-18T08:13:10.867Z] CLI Version:   14.20.0
+[debug] [2025-10-18T08:13:10.868Z] Platform:      win32
+[debug] [2025-10-18T08:13:10.868Z] Node Version:  v22.17.1
+[debug] [2025-10-18T08:13:10.868Z] Time:          Sat Oct 18 2025 05:13:10 GMT-0300 (hora de verano de Chile)
+[debug] [2025-10-18T08:13:10.868Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-18T08:13:11.083Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-10-18T08:13:11.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-18T08:13:11.088Z] > authorizing via signed-in user (githubmario33@gmail.com)
+[info] Create your ANDROID app in project eva3-iot-francisco-mario:
+[debug] [2025-10-18T08:13:11.092Z] Checked if tokens are valid: true, expires at: 1760777177441
+[debug] [2025-10-18T08:13:11.093Z] Checked if tokens are valid: true, expires at: 1760777177441
+[debug] [2025-10-18T08:13:11.094Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/eva3-iot-francisco-mario/androidApps [none]
+[debug] [2025-10-18T08:13:11.094Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/eva3-iot-francisco-mario/androidApps {"displayName":"proyecto_uno (android)","packageName":"com.company.appEVA3_IOT"}
+[debug] [2025-10-18T08:13:11.745Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/eva3-iot-francisco-mario/androidApps 409
+[debug] [2025-10-18T08:13:11.746Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/eva3-iot-francisco-mario/androidApps {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-10-18T08:13:11.746Z] Request to https://firebase.googleapis.com/v1beta1/projects/eva3-iot-francisco-mario/androidApps had HTTP Error: 409, Requested entity already exists
+[debug] [2025-10-18T08:13:11.748Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/eva3-iot-francisco-mario/androidApps had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\mario\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\mario\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project eva3-iot-francisco-mario. See firebase-debug.log for more info.
